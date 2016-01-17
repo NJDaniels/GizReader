@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GizReader
+Comment=webapp for GizReader
+Type=Application
+Icon=GizReader.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://m.gizmodo.com/* http://m.gizmodo.com %u
+Terminal=false
+X-Ubuntu-Touch=true
