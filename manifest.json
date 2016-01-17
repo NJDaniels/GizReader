@@ -1,0 +1,15 @@
+{
+    "name": "gizreader.elfangor1989",
+    "description": "A reader for articles on Gizmodo",
+    "architecture": "all",
+    "title": "GizReader",
+    "hooks": {
+        "GizReader": {
+            "apparmor": "GizReader.apparmor",
+            "desktop": "GizReader.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Neil Daniels <elfangor1989@gmail.com>",
+    "framework": "ubuntu-sdk-15.04"
+}
